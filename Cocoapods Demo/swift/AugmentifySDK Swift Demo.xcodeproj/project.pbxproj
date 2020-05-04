@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162DB75C053252896F86AD3E /* Pods_AugmentifySDK_Swift_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1C1957C027D86F31FD69EA /* Pods_AugmentifySDK_Swift_Demo.framework */; };
+		84176128230AC00A00944FE7 /* MyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84176127230AC00A00944FE7 /* MyHeader.swift */; };
+		8433968922E08C58002D0DE8 /* SDKLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433968822E08C58002D0DE8 /* SDKLogs.swift */; };
+		B0A0806C22240049003E2E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0806B22240049003E2E89 /* AppDelegate.swift */; };
+		B0A0806E22240049003E2E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0806D22240049003E2E89 /* ViewController.swift */; };
+		B0A0807122240049003E2E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A0806F22240049003E2E89 /* Main.storyboard */; };
+		B0A080732224004B003E2E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A080722224004B003E2E89 /* Assets.xcassets */; };
+		B0A080762224004B003E2E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A080742224004B003E2E89 /* LaunchScreen.storyboard */; };
+		B0A080812224004B003E2E89 /* AugmentifySDK_Swift_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A080802224004B003E2E89 /* AugmentifySDK_Swift_DemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0A0807D2224004B003E2E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A0806022240049003E2E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A0806722240049003E2E89;
+			remoteInfo = "AugmentifySDK Swift Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0A2BA02222402C50093ECF8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C05F5CD7D6A0846804CEFD7 /* Pods-AugmentifySDK Swift Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentifySDK Swift Demo.release.xcconfig"; path = "Target Support Files/Pods-AugmentifySDK Swift Demo/Pods-AugmentifySDK Swift Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7E1C1957C027D86F31FD69EA /* Pods_AugmentifySDK_Swift_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentifySDK_Swift_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84176127230AC00A00944FE7 /* MyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHeader.swift; sourceTree = "<group>"; };
+		8433968822E08C58002D0DE8 /* SDKLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKLogs.swift; sourceTree = "<group>"; };
+		84FD4B8222DC9ECE009B2807 /* AugmentifySDK Swift Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AugmentifySDK Swift Demo.entitlements"; sourceTree = "<group>"; };
+		B0A0806822240049003E2E89 /* AugmentifySDK Swift Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AugmentifySDK Swift Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A0806B22240049003E2E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0A0806D22240049003E2E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0A0807022240049003E2E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0A080722224004B003E2E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A080752224004B003E2E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0A080772224004B003E2E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A0807C2224004B003E2E89 /* AugmentifySDK Swift DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AugmentifySDK Swift DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A080802224004B003E2E89 /* AugmentifySDK_Swift_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugmentifySDK_Swift_DemoTests.swift; sourceTree = "<group>"; };
+		B0A080822224004B003E2E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EDF4F2FEA28E601D7752C9 /* Pods-AugmentifySDK Swift Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentifySDK Swift Demo.debug.xcconfig"; path = "Target Support Files/Pods-AugmentifySDK Swift Demo/Pods-AugmentifySDK Swift Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A0806522240049003E2E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162DB75C053252896F86AD3E /* Pods_AugmentifySDK_Swift_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A080792224004B003E2E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30494D56665D9846F9F7F2B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5EDF4F2FEA28E601D7752C9 /* Pods-AugmentifySDK Swift Demo.debug.xcconfig */,
+				6C05F5CD7D6A0846804CEFD7 /* Pods-AugmentifySDK Swift Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD995D9FB8178BD6E0160B2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E1C1957C027D86F31FD69EA /* Pods_AugmentifySDK_Swift_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0A0805F22240049003E2E89 = {
+			isa = PBXGroup;
+			children = (
+				B0A0806A22240049003E2E89 /* AugmentifySDK Swift Demo */,
+				B0A0807F2224004B003E2E89 /* AugmentifySDK Swift DemoTests */,
+				B0A0806922240049003E2E89 /* Products */,
+				30494D56665D9846F9F7F2B1 /* Pods */,
+				AD995D9FB8178BD6E0160B2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A0806922240049003E2E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A0806822240049003E2E89 /* AugmentifySDK Swift Demo.app */,
+				B0A0807C2224004B003E2E89 /* AugmentifySDK Swift DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A0806A22240049003E2E89 /* AugmentifySDK Swift Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84FD4B8222DC9ECE009B2807 /* AugmentifySDK Swift Demo.entitlements */,
+				B0A0806B22240049003E2E89 /* AppDelegate.swift */,
+				B0A0806D22240049003E2E89 /* ViewController.swift */,
+				8433968822E08C58002D0DE8 /* SDKLogs.swift */,
+				B0A0806F22240049003E2E89 /* Main.storyboard */,
+				B0A080722224004B003E2E89 /* Assets.xcassets */,
+				B0A080742224004B003E2E89 /* LaunchScreen.storyboard */,
+				B0A080772224004B003E2E89 /* Info.plist */,
+				84176127230AC00A00944FE7 /* MyHeader.swift */,
+			);
+			path = "AugmentifySDK Swift Demo";
+			sourceTree = "<group>";
+		};
+		B0A0807F2224004B003E2E89 /* AugmentifySDK Swift DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0A080802224004B003E2E89 /* AugmentifySDK_Swift_DemoTests.swift */,
+				B0A080822224004B003E2E89 /* Info.plist */,
+			);
+			path = "AugmentifySDK Swift DemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A0806722240049003E2E89 /* AugmentifySDK Swift Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A080852224004B003E2E89 /* Build configuration list for PBXNativeTarget "AugmentifySDK Swift Demo" */;
+			buildPhases = (
+				C1555B571BECD9883D663142 /* [CP] Check Pods Manifest.lock */,
+				B0A0806422240049003E2E89 /* Sources */,
+				B0A0806522240049003E2E89 /* Frameworks */,
+				B0A0806622240049003E2E89 /* Resources */,
+				B0A2BA02222402C50093ECF8 /* Embed Frameworks */,
+				BF39C1A513B7AF2A48DE2797 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AugmentifySDK Swift Demo";
+			productName = "AugmentifySDK Swift Demo";
+			productReference = B0A0806822240049003E2E89 /* AugmentifySDK Swift Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0A0807B2224004B003E2E89 /* AugmentifySDK Swift DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A080882224004B003E2E89 /* Build configuration list for PBXNativeTarget "AugmentifySDK Swift DemoTests" */;
+			buildPhases = (
+				B0A080782224004B003E2E89 /* Sources */,
+				B0A080792224004B003E2E89 /* Frameworks */,
+				B0A0807A2224004B003E2E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0A0807E2224004B003E2E89 /* PBXTargetDependency */,
+			);
+			name = "AugmentifySDK Swift DemoTests";
+			productName = "AugmentifySDK Swift DemoTests";
+			productReference = B0A0807C2224004B003E2E89 /* AugmentifySDK Swift DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A0806022240049003E2E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mintellity;
+				TargetAttributes = {
+					B0A0806722240049003E2E89 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					B0A0807B2224004B003E2E89 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B0A0806722240049003E2E89;
+					};
+				};
+			};
+			buildConfigurationList = B0A0806322240049003E2E89 /* Build configuration list for PBXProject "AugmentifySDK Swift Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0A0805F22240049003E2E89;
+			productRefGroup = B0A0806922240049003E2E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A0806722240049003E2E89 /* AugmentifySDK Swift Demo */,
+				B0A0807B2224004B003E2E89 /* AugmentifySDK Swift DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0A0806622240049003E2E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A080762224004B003E2E89 /* LaunchScreen.storyboard in Resources */,
+				B0A080732224004B003E2E89 /* Assets.xcassets in Resources */,
+				B0A0807122240049003E2E89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A0807A2224004B003E2E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF39C1A513B7AF2A48DE2797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugmentifySDK Swift Demo/Pods-AugmentifySDK Swift Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugmentifySDK Swift Demo/Pods-AugmentifySDK Swift Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AugmentifySDK Swift Demo/Pods-AugmentifySDK Swift Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1555B571BECD9883D663142 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AugmentifySDK Swift Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A0806422240049003E2E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84176128230AC00A00944FE7 /* MyHeader.swift in Sources */,
+				B0A0806E22240049003E2E89 /* ViewController.swift in Sources */,
+				8433968922E08C58002D0DE8 /* SDKLogs.swift in Sources */,
+				B0A0806C22240049003E2E89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A080782224004B003E2E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A080812224004B003E2E89 /* AugmentifySDK_Swift_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0A0807E2224004B003E2E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0A0806722240049003E2E89 /* AugmentifySDK Swift Demo */;
+			targetProxy = B0A0807D2224004B003E2E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0A0806F22240049003E2E89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A0807022240049003E2E89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0A080742224004B003E2E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A080752224004B003E2E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0A080832224004B003E2E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0A080842224004B003E2E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0A080862224004B003E2E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EDF4F2FEA28E601D7752C9 /* Pods-AugmentifySDK Swift Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AugmentifySDK Swift Demo/AugmentifySDK Swift Demo.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "AugmentifySDK Swift Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintellity.augmentify.sdkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AugmentifySDK Demo";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0A080872224004B003E2E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C05F5CD7D6A0846804CEFD7 /* Pods-AugmentifySDK Swift Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AugmentifySDK Swift Demo/AugmentifySDK Swift Demo.entitlements";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "AugmentifySDK Swift Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintellity.augmentify.sdkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AugmentifySDK Demo";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0A080892224004B003E2E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				INFOPLIST_FILE = "AugmentifySDK Swift DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintellity.augmentify.sdkDemo.AugmentifySDK-Swift-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentifySDK Swift Demo.app/AugmentifySDK Swift Demo";
+			};
+			name = Debug;
+		};
+		B0A0808A2224004B003E2E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				INFOPLIST_FILE = "AugmentifySDK Swift DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintellity.augmentify.sdkDemo.AugmentifySDK-Swift-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentifySDK Swift Demo.app/AugmentifySDK Swift Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A0806322240049003E2E89 /* Build configuration list for PBXProject "AugmentifySDK Swift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A080832224004B003E2E89 /* Debug */,
+				B0A080842224004B003E2E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A080852224004B003E2E89 /* Build configuration list for PBXNativeTarget "AugmentifySDK Swift Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A080862224004B003E2E89 /* Debug */,
+				B0A080872224004B003E2E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A080882224004B003E2E89 /* Build configuration list for PBXNativeTarget "AugmentifySDK Swift DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A080892224004B003E2E89 /* Debug */,
+				B0A0808A2224004B003E2E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0A0806022240049003E2E89 /* Project object */;
+}

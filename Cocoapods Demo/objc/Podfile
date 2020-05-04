@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'AugmentifySDK Demo' do
+use_frameworks!
+
+pod 'AugmentifySDK'
+pod 'MBProgressHUD', '~> 1.1.0'
+
+end

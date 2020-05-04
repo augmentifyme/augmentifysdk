@@ -1,0 +1,11 @@
+framework module AugmentifySDK {
+  umbrella header "AugmentifySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AugmentifySDK.Swift {
+    header "AugmentifySDK-Swift.h"
+    requires objc
+}

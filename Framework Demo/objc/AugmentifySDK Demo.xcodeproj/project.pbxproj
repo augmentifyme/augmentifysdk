@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2E178FC7097C6142A926D3 /* Pods_AugmentifySDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D55E219F22AB52804EDB /* Pods_AugmentifySDK_Demo.framework */; };
+		84BE4C5822E0A8250041AA7B /* SDKLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4C5722E0A8250041AA7B /* SDKLogs.m */; };
+		8908C8842460771800B5ACF8 /* AugmentifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908C8832460771800B5ACF8 /* AugmentifySDK.framework */; };
+		B06570242215AD0900121CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06570232215AD0900121CC1 /* AppDelegate.m */; };
+		B06570272215AD0900121CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06570262215AD0900121CC1 /* ViewController.m */; };
+		B065702A2215AD0900121CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06570282215AD0900121CC1 /* Main.storyboard */; };
+		B065702C2215AD0B00121CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B065702B2215AD0B00121CC1 /* Assets.xcassets */; };
+		B065702F2215AD0B00121CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B065702D2215AD0B00121CC1 /* LaunchScreen.storyboard */; };
+		B06570322215AD0B00121CC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06570312215AD0B00121CC1 /* main.m */; };
+		B065703C2215AD0B00121CC1 /* AugmentifySDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B065703B2215AD0B00121CC1 /* AugmentifySDK_DemoTests.m */; };
+		B08CFA232215B3A3001329B6 /* ASwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08CFA222215B3A3001329B6 /* ASwiftFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B06570382215AD0B00121CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06570172215AD0900121CC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B065701E2215AD0900121CC1;
+			remoteInfo = "AugmentifySDK Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B08CFA1F2215B282001329B6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E4765BDE1DE7603AF46EAA4 /* Pods-AugmentifySDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentifySDK Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentifySDK Demo/Pods-AugmentifySDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		84BD4AE823697AE6002C376A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		84BD4AE923697AE8002C376A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		84BE4C5622E0A8250041AA7B /* SDKLogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKLogs.h; sourceTree = "<group>"; };
+		84BE4C5722E0A8250041AA7B /* SDKLogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKLogs.m; sourceTree = "<group>"; };
+		84FD4B8622DCB5F5009B2807 /* AugmentifySDK Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AugmentifySDK Demo.entitlements"; sourceTree = "<group>"; };
+		88A9D55E219F22AB52804EDB /* Pods_AugmentifySDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AugmentifySDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8908C8832460771800B5ACF8 /* AugmentifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AugmentifySDK.framework; path = ../../AugmentifySDK.framework; sourceTree = "<group>"; };
+		B065701F2215AD0900121CC1 /* AugmentifySDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AugmentifySDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06570222215AD0900121CC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B06570232215AD0900121CC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B06570252215AD0900121CC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B06570262215AD0900121CC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B06570292215AD0900121CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B065702B2215AD0B00121CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B065702E2215AD0B00121CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06570302215AD0B00121CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06570312215AD0B00121CC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B06570372215AD0B00121CC1 /* AugmentifySDK DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AugmentifySDK DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B065703B2215AD0B00121CC1 /* AugmentifySDK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AugmentifySDK_DemoTests.m; sourceTree = "<group>"; };
+		B065703D2215AD0B00121CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B08CFA222215B3A3001329B6 /* ASwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASwiftFile.swift; sourceTree = "<group>"; };
+		F78CB0930F0DC395F835FC91 /* Pods-AugmentifySDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AugmentifySDK Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AugmentifySDK Demo/Pods-AugmentifySDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B065701C2215AD0900121CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8908C8842460771800B5ACF8 /* AugmentifySDK.framework in Frameworks */,
+				4C2E178FC7097C6142A926D3 /* Pods_AugmentifySDK_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06570342215AD0B00121CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE177C8AEFB5A5B25A00179F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88A9D55E219F22AB52804EDB /* Pods_AugmentifySDK_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06570162215AD0900121CC1 = {
+			isa = PBXGroup;
+			children = (
+				8908C8832460771800B5ACF8 /* AugmentifySDK.framework */,
+				B08CFA222215B3A3001329B6 /* ASwiftFile.swift */,
+				B06570212215AD0900121CC1 /* AugmentifySDK Demo */,
+				B065703A2215AD0B00121CC1 /* AugmentifySDK DemoTests */,
+				B06570202215AD0900121CC1 /* Products */,
+				C02E0994182B53D826B9A110 /* Pods */,
+				AE177C8AEFB5A5B25A00179F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06570202215AD0900121CC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B065701F2215AD0900121CC1 /* AugmentifySDK Demo.app */,
+				B06570372215AD0B00121CC1 /* AugmentifySDK DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06570212215AD0900121CC1 /* AugmentifySDK Demo */ = {
+			isa = PBXGroup;
+			children = (
+				84FD4B8622DCB5F5009B2807 /* AugmentifySDK Demo.entitlements */,
+				B06570222215AD0900121CC1 /* AppDelegate.h */,
+				B06570232215AD0900121CC1 /* AppDelegate.m */,
+				B06570252215AD0900121CC1 /* ViewController.h */,
+				B06570262215AD0900121CC1 /* ViewController.m */,
+				84BE4C5622E0A8250041AA7B /* SDKLogs.h */,
+				84BE4C5722E0A8250041AA7B /* SDKLogs.m */,
+				B06570282215AD0900121CC1 /* Main.storyboard */,
+				B065702B2215AD0B00121CC1 /* Assets.xcassets */,
+				B065702D2215AD0B00121CC1 /* LaunchScreen.storyboard */,
+				B06570302215AD0B00121CC1 /* Info.plist */,
+				B06570312215AD0B00121CC1 /* main.m */,
+			);
+			path = "AugmentifySDK Demo";
+			sourceTree = "<group>";
+		};
+		B065703A2215AD0B00121CC1 /* AugmentifySDK DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B065703B2215AD0B00121CC1 /* AugmentifySDK_DemoTests.m */,
+				B065703D2215AD0B00121CC1 /* Info.plist */,
+			);
+			path = "AugmentifySDK DemoTests";
+			sourceTree = "<group>";
+		};
+		C02E0994182B53D826B9A110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F78CB0930F0DC395F835FC91 /* Pods-AugmentifySDK Demo.debug.xcconfig */,
+				1E4765BDE1DE7603AF46EAA4 /* Pods-AugmentifySDK Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B065701E2215AD0900121CC1 /* AugmentifySDK Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06570402215AD0B00121CC1 /* Build configuration list for PBXNativeTarget "AugmentifySDK Demo" */;
+			buildPhases = (
+				94EB34141BDB761AB8654D01 /* [CP] Check Pods Manifest.lock */,
+				B065701B2215AD0900121CC1 /* Sources */,
+				B065701C2215AD0900121CC1 /* Frameworks */,
+				B065701D2215AD0900121CC1 /* Resources */,
+				F7492DC079828D42FD2EDC79 /* [CP] Embed Pods Frameworks */,
+				B08CFA1F2215B282001329B6 /* Embed Frameworks */,
+				B0F3F4292216E4A70038B7E2 /* strip Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AugmentifySDK Demo";
+			productName = "AugmentifySDK Demo";
+			productReference = B065701F2215AD0900121CC1 /* AugmentifySDK Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B06570362215AD0B00121CC1 /* AugmentifySDK DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06570432215AD0B00121CC1 /* Build configuration list for PBXNativeTarget "AugmentifySDK DemoTests" */;
+			buildPhases = (
+				B06570332215AD0B00121CC1 /* Sources */,
+				B06570342215AD0B00121CC1 /* Frameworks */,
+				B06570352215AD0B00121CC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06570392215AD0B00121CC1 /* PBXTargetDependency */,
+			);
+			name = "AugmentifySDK DemoTests";
+			productName = "AugmentifySDK DemoTests";
+			productReference = B06570372215AD0B00121CC1 /* AugmentifySDK DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06570172215AD0900121CC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mintellity;
+				TargetAttributes = {
+					B065701E2215AD0900121CC1 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					B06570362215AD0B00121CC1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B065701E2215AD0900121CC1;
+					};
+				};
+			};
+			buildConfigurationList = B065701A2215AD0900121CC1 /* Build configuration list for PBXProject "AugmentifySDK Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = B06570162215AD0900121CC1;
+			productRefGroup = B06570202215AD0900121CC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B065701E2215AD0900121CC1 /* AugmentifySDK Demo */,
+				B06570362215AD0B00121CC1 /* AugmentifySDK DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B065701D2215AD0900121CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B065702F2215AD0B00121CC1 /* LaunchScreen.storyboard in Resources */,
+				B065702C2215AD0B00121CC1 /* Assets.xcassets in Resources */,
+				B065702A2215AD0900121CC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06570352215AD0B00121CC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94EB34141BDB761AB8654D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AugmentifySDK Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F3F4292216E4A70038B7E2 /* strip Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "strip Framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AugmentifySDK.framework/strip-frameworks.sh\"\n";
+		};
+		F7492DC079828D42FD2EDC79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugmentifySDK Demo/Pods-AugmentifySDK Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AugmentifySDK Demo/Pods-AugmentifySDK Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AugmentifySDK Demo/Pods-AugmentifySDK Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B065701B2215AD0900121CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06570272215AD0900121CC1 /* ViewController.m in Sources */,
+				B08CFA232215B3A3001329B6 /* ASwiftFile.swift in Sources */,
+				B06570322215AD0B00121CC1 /* main.m in Sources */,
+				84BE4C5822E0A8250041AA7B /* SDKLogs.m in Sources */,
+				B06570242215AD0900121CC1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06570332215AD0B00121CC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B065703C2215AD0B00121CC1 /* AugmentifySDK_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06570392215AD0B00121CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B065701E2215AD0900121CC1 /* AugmentifySDK Demo */;
+			targetProxy = B06570382215AD0B00121CC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B06570282215AD0900121CC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06570292215AD0900121CC1 /* Base */,
+				84BD4AE823697AE6002C376A /* de */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B065702D2215AD0B00121CC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B065702E2215AD0B00121CC1 /* Base */,
+				84BD4AE923697AE8002C376A /* de */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B065703E2215AD0B00121CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B065703F2215AD0B00121CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06570412215AD0B00121CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78CB0930F0DC395F835FC91 /* Pods-AugmentifySDK Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "AugmentifySDK Demo/AugmentifySDK Demo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AugmentifySDK\\ Demo",
+					"$(PROJECT_DIR)/AugmentifySDK\\ Demo",
+					"$(PROJECT_DIR)",
+					../../,
+				);
+				INFOPLIST_FILE = "AugmentifySDK Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintellity.augmentify.sdkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AugmentifySDK Demo";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06570422215AD0B00121CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4765BDE1DE7603AF46EAA4 /* Pods-AugmentifySDK Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "AugmentifySDK Demo/AugmentifySDK Demo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AugmentifySDK\\ Demo",
+					"$(PROJECT_DIR)/AugmentifySDK\\ Demo",
+					"$(PROJECT_DIR)",
+					../../,
+				);
+				INFOPLIST_FILE = "AugmentifySDK Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintellity.augmentify.sdkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AugmentifySDK Demo";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B06570442215AD0B00121CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				INFOPLIST_FILE = "AugmentifySDK DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintellity.augmentify.sdkDemo.AugmentifySDK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentifySDK Demo.app/AugmentifySDK Demo";
+			};
+			name = Debug;
+		};
+		B06570452215AD0B00121CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ES2PJLP5W;
+				INFOPLIST_FILE = "AugmentifySDK DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintellity.augmentify.sdkDemo.AugmentifySDK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AugmentifySDK Demo.app/AugmentifySDK Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B065701A2215AD0900121CC1 /* Build configuration list for PBXProject "AugmentifySDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B065703E2215AD0B00121CC1 /* Debug */,
+				B065703F2215AD0B00121CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06570402215AD0B00121CC1 /* Build configuration list for PBXNativeTarget "AugmentifySDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06570412215AD0B00121CC1 /* Debug */,
+				B06570422215AD0B00121CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06570432215AD0B00121CC1 /* Build configuration list for PBXNativeTarget "AugmentifySDK DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06570442215AD0B00121CC1 /* Debug */,
+				B06570452215AD0B00121CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06570172215AD0900121CC1 /* Project object */;
+}

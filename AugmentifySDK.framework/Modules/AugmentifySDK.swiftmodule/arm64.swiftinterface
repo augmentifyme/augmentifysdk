@@ -1,0 +1,151 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AugmentifySDK
+import ARKit
+import AVFoundation
+import AVKit
+@_exported import AugmentifySDK
+import Compression
+import CoreFoundation
+import CoreGraphics
+import Foundation
+import SceneKit.ModelIO
+import QuartzCore
+import QuickLook
+import SceneKit
+import SpriteKit
+import Swift
+import UIKit
+import WebKit
+@usableFromInline
+internal protocol _AnyDecodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension _AnyDecodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+extension SCNNode {
+}
+extension SCNVector3 {
+}
+extension NSError {
+  @objc dynamic public var title: Swift.String? {
+    @objc get
+  }
+  @objc dynamic public var message: Swift.String? {
+    @objc get
+  }
+}
+public typealias AugmentifyViewController = UIKit.UIViewController & AugmentifySDK.AugmentifyViewControllerProtocol
+@objc public protocol AugmentifyViewControllerProtocol {
+  @objc var headerView: UIKit.UIView? { get set }
+  @objc var headerHeight: CoreGraphics.CGFloat { get set }
+  @objc func setHeaderView(_ headerView: UIKit.UIView, withHeight: CoreGraphics.CGFloat)
+}
+@objc @_hasMissingDesignatedInitializers public class Experience : ObjectiveC.NSObject {
+  final public let name: Swift.String
+  final public let mbSize: Swift.Double
+  final public let icon: UIKit.UIImage
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension Experience : Foundation.URLSessionDownloadDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
+}
+@objc public enum AugmentifySDKTokenValidation : Swift.Int {
+  case notValidated = 0
+  case validated = 1
+  case validationFailed = 2
+  case validationInProgress = 3
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum AugmentifySyncState : Swift.Int {
+  case notStarted = 0
+  case error = 1
+  case starting = 2
+  case allLoaded = 3
+  public var finished: Swift.Bool {
+    get
+  }
+  public var toString: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol AugmentifyStatusDelegate : AnyObject {
+  @objc func syncChangedFromState(oldState: AugmentifySDK.AugmentifySyncState, newState: AugmentifySDK.AugmentifySyncState)
+}
+@objc public protocol AugmentifyErrorDelegate : AnyObject {
+  @objc func didReceiveError(_ error: Swift.Error)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AugmentifySDKManager : ObjectiveC.NSObject {
+  @objc public static let shared: AugmentifySDK.AugmentifySDKManager
+  @objc public var isSupported: Swift.Bool {
+    @objc get
+  }
+  @objc public var status: AugmentifySDK.AugmentifySyncState {
+    @objc get
+  }
+  public static var sdkVersion: Swift.String {
+    get
+  }
+  public static var sdkBuild: Swift.String {
+    get
+  }
+  @objc public func addErrorDelegate(_ delegate: AugmentifySDK.AugmentifyErrorDelegate)
+  @discardableResult
+  @objc public func removeErrorDelegate(_ delegate: AugmentifySDK.AugmentifyErrorDelegate) -> Swift.Bool
+  @objc public func addStatusDelegate(_ delegate: AugmentifySDK.AugmentifyStatusDelegate)
+  @discardableResult
+  @objc public func removeStatusDelegate(_ delegate: AugmentifySDK.AugmentifyStatusDelegate) -> Swift.Bool
+  @objc public func configureWith(appToken: Swift.String, secret: Swift.String)
+  @objc public func start()
+  @objc public func startWithCompletion(_ success: @escaping (() -> Swift.Void), failure: @escaping ((Foundation.NSError) -> Swift.Void))
+  @objc public var isReady: Swift.Bool {
+    @objc get
+  }
+  @available(iOS 12.0, *)
+  @objc public func createAugmentifyViewController(withExperience experience: AugmentifySDK.Experience? = nil) -> AugmentifySDK.AugmentifyViewController?
+  @objc public func createAugmentifyViewController(forUrl url: Foundation.URL, success: @escaping ((AugmentifySDK.AugmentifyViewController) -> (Swift.Void)), failure: @escaping ((Foundation.NSError) -> (Swift.Void)))
+  @objc deinit
+}
+@usableFromInline
+internal protocol _AnyEncodable {
+  var value: Any { get }
+  init<T>(_ value: T?)
+}
+extension _AnyEncodable {
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension _AnyEncodable {
+  public init(nilLiteral _: ())
+  public init(booleanLiteral value: Swift.Bool)
+  public init(integerLiteral value: Swift.Int)
+  public init(floatLiteral value: Swift.Double)
+  public init(extendedGraphemeClusterLiteral value: Swift.String)
+  public init(stringLiteral value: Swift.String)
+  public init(arrayLiteral elements: Any...)
+  public init(dictionaryLiteral elements: (Swift.AnyHashable, Any)...)
+}
+@_hasMissingDesignatedInitializers final public class ExperienceLogic {
+  public static func getExperience(code: Swift.String, completion: @escaping ((AugmentifySDK.Experience?, Foundation.NSError?) -> Swift.Void))
+  @objc deinit
+}
+extension AugmentifySDK.AugmentifySDKTokenValidation : Swift.Equatable {}
+extension AugmentifySDK.AugmentifySDKTokenValidation : Swift.Hashable {}
+extension AugmentifySDK.AugmentifySDKTokenValidation : Swift.RawRepresentable {}
+extension AugmentifySDK.AugmentifySyncState : Swift.Equatable {}
+extension AugmentifySDK.AugmentifySyncState : Swift.Hashable {}
+extension AugmentifySDK.AugmentifySyncState : Swift.RawRepresentable {}
