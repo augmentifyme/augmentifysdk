@@ -59,7 +59,7 @@
 #ifdef AugmentifyImport
     if (@available(iOS 12.0, *)) {
         if(AugmentifySDKManager.shared.isReady) {
-            UIViewController<AugmentifyViewControllerProtocol> *vc = [AugmentifySDKManager.shared createAugmentifyViewController];
+            UIViewController<AugmentifyViewControllerProtocol> *vc = [AugmentifySDKManager.shared createAugmentifyViewControllerWithExperience:nil];
             // set a view as your header
             vc.headerView = [MyHeader new];
             // make the header a little bigger when theres a notch
