@@ -473,8 +473,6 @@
 				DEVELOPMENT_TEAM = 3ES2PJLP5W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AugmentifySDK\\ Swift\\ Demo/SDK",
-					"$(PROJECT_DIR)/AugmentifySDK\\ Swift\\ Demo/SDK",
 					"$(PROJECT_DIR)",
 					../../,
 				);
@@ -501,8 +499,6 @@
 				DEVELOPMENT_TEAM = 3ES2PJLP5W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/AugmentifySDK\\ Swift\\ Demo/SDK",
-					"$(PROJECT_DIR)/AugmentifySDK\\ Swift\\ Demo/SDK",
 					"$(PROJECT_DIR)",
 					../../,
 				);

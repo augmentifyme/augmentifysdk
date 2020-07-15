@@ -10,6 +10,7 @@
 		4C2E178FC7097C6142A926D3 /* Pods_AugmentifySDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A9D55E219F22AB52804EDB /* Pods_AugmentifySDK_Demo.framework */; };
 		84BE4C5822E0A8250041AA7B /* SDKLogs.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE4C5722E0A8250041AA7B /* SDKLogs.m */; };
 		8908C8842460771800B5ACF8 /* AugmentifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8908C8832460771800B5ACF8 /* AugmentifySDK.framework */; };
+		89FA2C5E24BF199B00FE710E /* AugmentifySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8908C8832460771800B5ACF8 /* AugmentifySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B06570242215AD0900121CC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06570232215AD0900121CC1 /* AppDelegate.m */; };
 		B06570272215AD0900121CC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06570262215AD0900121CC1 /* ViewController.m */; };
 		B065702A2215AD0900121CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06570282215AD0900121CC1 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				89FA2C5E24BF199B00FE710E /* AugmentifySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
