@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AugmentifySDK
 import ARKit
 import AVFoundation
@@ -17,19 +17,16 @@ import SpriteKit
 import Swift
 import UIKit
 import WebKit
+import _Concurrency
 @usableFromInline
 internal protocol _AnyDecodable {
   var value: Any { get }
   init<T>(_ value: T?)
 }
-extension _AnyDecodable {
+extension AugmentifySDK._AnyDecodable {
   public init(from decoder: Swift.Decoder) throws
 }
-extension SCNNode {
-}
-extension SCNVector3 {
-}
-extension NSError {
+extension Foundation.NSError {
   @objc dynamic public var title: Swift.String? {
     @objc get
   }
@@ -49,9 +46,8 @@ public typealias AugmentifyViewController = UIKit.UIViewController & AugmentifyS
   final public let icon: UIKit.UIImage
   @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
   @objc deinit
-  @objc override dynamic public init()
 }
-extension Experience : Foundation.URLSessionDownloadDelegate {
+extension AugmentifySDK.Experience : Foundation.URLSessionDownloadDelegate {
   @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didFinishDownloadingTo location: Foundation.URL)
   @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
   @objc dynamic public func urlSession(_ session: Foundation.URLSession, downloadTask: Foundation.URLSessionDownloadTask, didWriteData bytesWritten: Swift.Int64, totalBytesWritten: Swift.Int64, totalBytesExpectedToWrite: Swift.Int64)
@@ -61,8 +57,8 @@ extension Experience : Foundation.URLSessionDownloadDelegate {
   case validated = 1
   case validationFailed = 2
   case validationInProgress = 3
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -78,16 +74,16 @@ extension Experience : Foundation.URLSessionDownloadDelegate {
   public var toString: Swift.String {
     get
   }
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
-@objc public protocol AugmentifyStatusDelegate : AnyObject {
+@objc public protocol AugmentifyStatusDelegate {
   @objc func syncChangedFromState(oldState: AugmentifySDK.AugmentifySyncState, newState: AugmentifySDK.AugmentifySyncState)
 }
-@objc public protocol AugmentifyErrorDelegate : AnyObject {
+@objc public protocol AugmentifyErrorDelegate {
   @objc func didReceiveError(_ error: Swift.Error)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AugmentifySDKManager : ObjectiveC.NSObject {
@@ -126,10 +122,10 @@ internal protocol _AnyEncodable {
   var value: Any { get }
   init<T>(_ value: T?)
 }
-extension _AnyEncodable {
+extension AugmentifySDK._AnyEncodable {
   public func encode(to encoder: Swift.Encoder) throws
 }
-extension _AnyEncodable {
+extension AugmentifySDK._AnyEncodable {
   public init(nilLiteral _: ())
   public init(booleanLiteral value: Swift.Bool)
   public init(integerLiteral value: Swift.Int)
