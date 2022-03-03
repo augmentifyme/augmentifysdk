@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = "AugmentifySDK"
-    s.version           = "1.3.6"
+    s.version           = "1.3.7"
     s.summary           = "Augmentify - Augmented Reality SDK"
     s.homepage          = "https://augmentify.me/"
     s.swift_version     = '5.1'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.author            = { 'Name' => "info@augmentify.me" }
     s.license           = { :file => 'LICENSE' }
     s.platform          = :ios, "12.0"
-    s.source            = { :http => 'https://github.com/augmentifyme/augmentifysdk/releases/download/1.3.6/AugmentifySDK.zip'}
-    s.ios.vendored_frameworks = 'AugmentifySDK.framework'
+    s.source            = { :http => 'https://github.com/augmentifyme/augmentifysdk/releases/download/1.3.7/AugmentifySDK.zip'}
+    s.ios.vendored_frameworks = 'AugmentifySDK.xcframework'
 
 end
